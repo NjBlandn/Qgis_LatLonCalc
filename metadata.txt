@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Calculadora LatLon
+qgisMinimumVersion=3.0
+description=Conversion de coordenadas en DMS a DD
+version=0.1
+author=Navir Blandon
+email=navir.blandn@unah.hn
+
+about=Permite al usuari convertir coordenadas enteros grados, minutos, segundos a decimales
+
+tracker=https://github.com/NjBlandn/Qgis_LatLonCalc/issues
+repository=https://github.com/NjBlandn/Qgis_LatLonCalc
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python coordenadas qgis calculadora latitud longitud
+
+homepage=https://github.com/NjBlandn/Qgis_LatLonCalc
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
